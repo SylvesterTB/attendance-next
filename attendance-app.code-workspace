@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "attendance-app",
+			"path": "../attendance-app"
+		},
+		{
+			"name": "attendance-next",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
