@@ -31,7 +31,8 @@ body {
     text-wrap: balance;
   }
   .banner-bg{
-    background-color:rgb(26, 24, 74)
+    background-color:rgb(26, 24, 74);
+    z-index: 999;
   }
 
 }
