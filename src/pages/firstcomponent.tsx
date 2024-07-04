@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
-import { Button } from "@/pages/components/ui/button"
-import { Avatar, AvatarImage, AvatarFallback } from "../ui/avatar"
-import { Card, CardHeader, CardTitle, CardContent } from "../ui/card"
-import { Popover, PopoverTrigger, PopoverContent } from "../ui/popover"
-import { Command, CommandList, CommandGroup, CommandItem } from "../ui/command"
+import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
+import { Command, CommandList, CommandGroup, CommandItem } from "@/components/ui/command";
 import { JSX, SVGProps } from "react"
 import Image from 'next/image'
 
