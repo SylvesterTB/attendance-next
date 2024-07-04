@@ -123,7 +123,8 @@ export default function FirstComponent() {
                           <CommandItem
   className="flex flex-col items-start gap-1 px-4 py-2 cursor-pointer"
 >
-  <p>Move to "On Vacation"</p>
+<p>Move to &quot;On Vacation&quot;</p>
+
 </CommandItem>
                           </CommandGroup>
                         </CommandList>
@@ -169,7 +170,8 @@ export default function FirstComponent() {
   className="flex flex-col items-start gap-1 px-4 py-2 cursor-pointer"
   
 >
-  <p>Move to "In the Office"</p>
+<p>Move to &quot;In the Office&quot;</p>
+
 </CommandItem>
                           </CommandGroup>
                         </CommandList>
