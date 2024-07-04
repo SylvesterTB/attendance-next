@@ -94,15 +94,15 @@ export default function FirstComponent() {
         </div>
       </header>
       <main className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
-        <Card className="bg-card text-card-foreground">
+        <Card className="bg-card text-card-foreground rounded-lg shadow-md">
           <CardHeader className="border-b border-card-border pb-4">
             <CardTitle className="text-2xl font-bold">In the Office</CardTitle>
           </CardHeader>
           <CardContent className="py-6">
             <ul className="grid gap-4">
               {inTheOffice.map(person => (
-                <li key={person.id} className="flex items-center gap-4">
-                  <Avatar className="bg-green-500 text-green-50">
+                <li key={person.id} className="flex items-center gap-4 p-4 rounded-lg shadow-sm">
+                  <Avatar className="bg-green-500 text-green-50 rounded-full shadow-sm">
                     <AvatarImage src="/placeholder-user.jpg" />
                     <AvatarFallback>{person.name.charAt(0)}</AvatarFallback>
                   </Avatar>
@@ -139,15 +139,15 @@ export default function FirstComponent() {
             </ul>
           </CardContent>
         </Card>
-        <Card className="bg-card text-card-foreground">
+        <Card className="bg-card text-card-foreground rounded-lg shadow-md">
           <CardHeader className="border-b border-card-border pb-4">
             <CardTitle className="text-2xl font-bold">On Vacation</CardTitle>
           </CardHeader>
           <CardContent className="py-6">
             <ul className="grid gap-4">
               {onVacation.map(person => (
-                <li key={person.id} className="flex items-center gap-4">
-                  <Avatar className="bg-yellow-500 text-yellow-50">
+                <li key={person.id} className="flex items-center gap-4 p-4 rounded-lg shadow-sm">
+                  <Avatar className="bg-yellow-500 text-yellow-50 rounded-full shadow-sm">
                     <AvatarImage src="/placeholder-user.jpg" />
                     <AvatarFallback>{person.name.charAt(0)}</AvatarFallback>
                   </Avatar>
@@ -215,7 +215,7 @@ export default function FirstComponent() {
             <option value="office">In the Office</option>
             <option value="vacation">On Vacation</option>
           </select>
-          <button type="submit" className="p-2 bg-primary text-white rounded">
+          <button type="submit" className="p-2 bg-primary text-white rounded-lg shadow-md">
             Add Person
           </button>
         </form>
