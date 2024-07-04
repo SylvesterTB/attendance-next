@@ -94,7 +94,7 @@ export default function FirstComponent() {
         </div>
       </header>
       <main className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
-        <Card className="bg-card text-card-foreground rounded-lg shadow-md max-h-[100vh] overflow-auto">
+        <Card className="bg-card text-card-foreground rounded-lg shadow-md max-h-[60vh] overflow-auto">
           <CardHeader className="sticky top-0 bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between banner-bg">
             <CardTitle className="text-2xl font-bold  ">In the Office</CardTitle>
           </CardHeader>
@@ -141,7 +141,7 @@ export default function FirstComponent() {
             </ul>
           </CardContent>
         </Card>
-        <Card className="bg-card text-card-foreground rounded-lg shadow-md max-h-[100vh] overflow-auto">
+        <Card className="bg-card text-card-foreground rounded-lg shadow-md max-h-[60vh] overflow-auto">
           <CardHeader className="sticky top-0 bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between banner-bg">
             <CardTitle className="text-2xl font-bold">On Vacation</CardTitle>
           </CardHeader>
